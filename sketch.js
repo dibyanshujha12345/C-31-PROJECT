@@ -53,10 +53,10 @@ function setup() {
     stones.push(stone);
   }
 
-  zombie = createSprite(width / 2, height - 110);
+  zombie = createSprite(width / 2, height - 90);
   zombie.addAnimation("lefttoright", zombie1, zombie2, zombie1);
   zombie.addAnimation("righttoleft", zombie3, zombie4, zombie3);
-  zombie.scale = 0.06;
+  zombie.scale = 0.03;
   zombie.velocityX = 10;
 
   breakButton = createButton("");
